@@ -84,14 +84,12 @@ def move():
         x=head.xcor()
         head.setx(x+20)
          
-         
-         
 #keyboard moveing
-we.listen()
-we.onkeypress(go_up,"w")        
-we.onkeypress(go_down,"s")        
-we.onkeypress(go_left,"a")        
-we.onkeypress(go_right,"d")      
+we.listen()  
+we.onkeypress(go_up,"Up")        
+we.onkeypress(go_down,"Down")        
+we.onkeypress(go_left,"Left")        
+we.onkeypress(go_right,"Right")      
   
 #main game loop
 while True:
